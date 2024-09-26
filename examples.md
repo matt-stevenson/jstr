@@ -1121,8 +1121,8 @@ _(fetched from API)_:
 **Input:**
 ```json
 {
-  username: "username123",
-  password: "password123",
+  "username": "username123",
+  "password": "password123",
 }
 ```
 

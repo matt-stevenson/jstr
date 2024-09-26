@@ -1,5 +1,10 @@
 # **JSON Object Template Examples**
 
+The following examples include a `Template`, an `Input`, and an `Output`
+
+```
+Output = TemplateEngine.run(Template, Input)
+```
 ---
 
 ### **1. JSONPath Expressions**
@@ -201,7 +206,7 @@
 
 ---
 
-#### **3.3 `"..."` Shorthand for Spread Operators**
+#### **3.3 `"..."` Shorthand for Spread Operators, can be used in place of @merge and @concat and detects if objects or arrays**
 
 **Template:**
 ```json
